@@ -1,3 +1,7 @@
+/*Acortamos un poco el codigo, sumamos filtado de "tipo" de calzado y un filtrado de precio maximo a buscar.
+Tambien sumamos una variable carrito para acumular los objetos seleccionados,y adaptamos el proceso de compra a la variable carrito.
+codigo puede mejorar su logica y funcionalidad(ejemplo: cocatenar variable de talles e colores), conte con poco tiempo pido disculpas!!!*/
+
 const suUsuario = "Lemus";
 const suTarjeta = 1234567;
 let ingreso = false;

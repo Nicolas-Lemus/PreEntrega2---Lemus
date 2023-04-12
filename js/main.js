@@ -26,6 +26,9 @@ const calzados = [
     {nombre: "Oxford", precio: 6199, tipo:"Formal"},
     {nombre: "Gaziano & Girling", precio: 10000, tipo:"Formal"}
 ];
+//talles
+const talles=["S","M","L","XL","G"];
+
 //agregamos producto nuevo
 let nuevoProducto = new agregarProductos("Reebok", 4500, "Deportivo");
 //agregamos la variable a Calzados
@@ -141,8 +144,8 @@ function salida(){
         let opcion = prompt("¿Desea salir de la tienda?\n1. Si\n2. No");
         switch(opcion){
             case "1":
-                ingreso = false;
                 alert("¡Gracias! ¡Vuelva pronto!");
+                ingreso = false;
                 break;
             case "2":
                 ingresoExitoso();
@@ -152,7 +155,6 @@ function salida(){
                 break;
         }
     }
-    return ingreso;
 }
 //Carrito de compras5
 function agregarAlCarrito(productos) {
